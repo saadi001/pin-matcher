@@ -53,6 +53,7 @@ document.getElementById('verify-pin').addEventListener('click',function(){
         
         pinSuccessMessage.style.display = 'block';
         pinErrorMessage.style.display = 'none';
+        typedPin.value = '';
     }
     else{
         
